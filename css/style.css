@@ -1,0 +1,88 @@
+/*
+### Colors
+
+$black: #020104;
+$gray-dark: #22232a;
+$gray: #46413b;
+$gray-light: #bebab4;
+$white: #f7f7f6;
+$green: #43bd8e;
+$green-darker: #359771;
+*/
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url('../font/gilroy-light-webfont.woff');
+}
+
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    src: url('../font/gilroy-extrabold-webfont.woff');
+}
+
+body {
+    font-family: 'Gilroy Light';
+    font-size: 16px;
+        background: #f7f7f6;
+}
+
+h1, h2, h3, h4, h5 {
+    /*font-family: 'Gilroy Extra Bold';*/
+}
+
+a {
+    color: #43bd8e;
+}
+
+a:hover {
+    color: #359771;
+}
+
+.row--no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row--dark {
+    background: #020104;
+}
+
+.row--gray {
+    background: #46413b;
+}
+
+.row--spacer {
+    padding: 4em;
+    /*background: #22232a   ;*/
+    color: #46413b;
+    text-align: center;
+}
+
+.row--spacer hr {
+    border-top: 1px solid #bebab4;
+}
+
+.mast {
+    /*padding: 4em;*/
+    font-size: 3em;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+.aplayer {
+    background: #f7f7f6;
+}
+
+.footer {
+  padding: 2em;
+  color: #f7f7f6;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
