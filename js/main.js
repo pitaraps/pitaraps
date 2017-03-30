@@ -22,6 +22,10 @@ $(function() {
         }
         ]
     });
-
-    $('.js-main-logo').delay(500).animate({opacity: 1}, 1000);
+    AOS.init({
+      offset: 100,
+      duration: 800,
+      easing: 'ease-in-sine',
+      delay: 200,
+    });
 });
