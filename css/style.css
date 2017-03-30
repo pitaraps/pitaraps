@@ -48,7 +48,7 @@ a:hover {
 }
 
 .row--gray {
-    background: #46413b;
+    background: #0e0d0c;
 }
 
 .row--spacer {
@@ -72,11 +72,30 @@ a:hover {
 }
 .aplayer {
     background: #f7f7f6;
+    margin: 3em auto !important;
+    max-width: 500px;
+}
+
+.social {
+    margin-top: 6em;
+    margin-bottom: 3em;
+    color: #f7f7f6;
+}
+
+.social--links {
+    list-style: none;
+    padding: 0;
+}
+
+.social--links li {
+    font-size: 1.1em;
+    padding-bottom: 0.5em;
 }
 
 .footer {
   padding: 2em;
   color: #f7f7f6;
+  font-size: 0.75em;
 }
 
 .vertical-center {
@@ -85,4 +104,8 @@ a:hover {
 
   display: flex;
   align-items: center;
+}
+
+.js-main-logo {
+    opacity: 0;
 }

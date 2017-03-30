@@ -22,4 +22,6 @@ $(function() {
         }
         ]
     });
+
+    $('.js-main-logo').delay(500).animate({opacity: 1}, 1000);
 });
